@@ -52,8 +52,8 @@ def safety_get(driver: webdriver.ChromiumEdge, url: str):
 driver = webdriver.ChromiumEdge()
 
 # Call the hh_login function
-email = 'zi@calculate.ru'
-password = 'Anna0809'
+email = ''
+password = ''
 cookies_patch = 'cookies.pkl'
 
 hh_login(driver, email, password, cookies_patch)
